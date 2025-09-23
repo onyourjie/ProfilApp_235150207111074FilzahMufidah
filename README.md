@@ -8,22 +8,6 @@ Aplikasi profil sederhana yang dibuat menggunakan Jetpack Compose untuk memenuhi
 - **NIM:** 235150207111074
 - **Mata Kuliah:** Pemrograman Aplikasi Perangkat Bergerak (PAPB)
 
-## Fitur Aplikasi
-1. **Tampilan Profil Lengkap**
-   - Foto profil dengan bentuk lingkaran
-   - Nama lengkap mahasiswa
-   - Nomor Induk Mahasiswa (NIM)
-   - Deskripsi singkat
-
-2. **Tombol Interaktif**
-   - Tombol Follow/Unfollow dengan state management
-   - Perubahan warna tombol sesuai status
-   - Interaksi real-time menggunakan Compose state
-
-3. **Layout Responsif**
-   - Desain yang centered dan rapi
-   - Spacing yang konsisten antar komponen
-   - Background dengan rounded corners
 
 ## Penjelasan Kode
 
