@@ -18,6 +18,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.layout.ContentScale
 import com.example.profilapp_235150207111074filzahmufidah.ui.theme.ProfilApp_235150207111074FilzahMufidahTheme
 
 class MainActivity : ComponentActivity() {
@@ -43,7 +44,7 @@ fun ProfilScreen() {
             .fillMaxSize()
             .padding(16.dp)
             .background(
-                color = Color(0xFFF5F5F5),
+                color = Color(0xFFBDDCC8),
                 shape = androidx.compose.foundation.shape.RoundedCornerShape(12.dp)
             )
             .padding(24.dp),
@@ -52,12 +53,12 @@ fun ProfilScreen() {
     ) {
 
         Image(
-            painter = painterResource(id = R.drawable.ic_launcher_foreground), // Ganti dengan gambar profil Anda
+            painter = painterResource(id = R.drawable.filzah),
             contentDescription = "Foto Profil Filzah Mufidah",
             modifier = Modifier
                 .size(120.dp)
-                .clip(CircleShape)
-                .background(Color(0xFF6200EE))
+                .clip(CircleShape),
+            contentScale = ContentScale.Crop
         )
 
         Spacer(modifier = Modifier.height(16.dp))
@@ -99,7 +100,7 @@ fun FollowButton() {
             .fillMaxWidth(0.6f)
             .height(48.dp),
         colors = ButtonDefaults.buttonColors(
-            containerColor = if (isFollowed) Color(0xFFFF5722) else Color(0xFF6200EE),
+            containerColor = if (isFollowed) Color(0xFF902C40) else Color(0xFF2156B4),
             contentColor = Color.White
         )
     ) {
