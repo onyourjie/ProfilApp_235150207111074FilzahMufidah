@@ -1,6 +1,3 @@
-# ProfilApp - Filzah Mufidah
-**NIM: 235150207111074**
-
 ## Penjelasan Singkat Kode
 
 Aplikasi profil ini dibangun menggunakan Jetpack Compose dengan struktur sebagai berikut:
